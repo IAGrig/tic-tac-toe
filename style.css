@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.label{
+    width: 90vh;
+    height: 10vh;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.field{
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    user-select: none;
+}
+
+.cell{
+    width: 30vh;
+    height: 30vh;
+    background-color: #ccc;
+    vertical-align:baseline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-size: 20ch;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label{
+    font-size: 4ch;
+}
+
+.buttons{
+    display: flex;
+    background-color: red;
+    width: clamp(100px, 20%, 300%);
+    height: 100%;
+    flex-wrap: wrap;
+    
+}
+
+button{
+    height: 50%;
+    width: 100%;
+}
